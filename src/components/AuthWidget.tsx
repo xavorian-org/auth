@@ -68,7 +68,12 @@ export const AuthWidget: React.FC<AuthWidgetProps> = ({
         >
           {/* Mobile branding header */}
           <div className="lg:hidden text-center space-y-2 mb-6">
-            <img src={xavorianWordmark} alt="Xavorian" className="h-8 w-auto mx-auto" />
+            <img
+              src={xavorianWordmark}
+              alt="Xavorian"
+              style={{ height: '32px', width: 'auto', maxHeight: '32px', display: 'inline-block' }}
+              className="h-8 w-auto mx-auto"
+            />
             <p className="text-xs text-neutral-500 font-medium">
               Verified Real Estate Authentication Layer
             </p>

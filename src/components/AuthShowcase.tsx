@@ -65,6 +65,7 @@ export const AuthShowcase: React.FC = () => {
           <img
             src={xavorianWordmark}
             alt="Xavorian"
+            style={{ height: '28px', width: 'auto', maxHeight: '28px', display: 'inline-block' }}
             className="h-7 w-auto brightness-0 invert"
           />
         </div>
